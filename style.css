@@ -1,0 +1,210 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family:'Times New Roman', Times, serif,;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #000000;
+    background-size: 100% 300px;
+    background-position: 0% 100%;
+  }
+  
+  @keyframes move {
+    0% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #000000;
+    padding: 0.01em;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 70px;
+    margin-bottom: 0.5em;
+    font-family: poppins extrabold;
+    color: #fff;
+  }
+  
+  /* Main Content Styles */
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+  }
+  
+  .game-container {
+    background-color: #000000;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+  }
+  
+  .game-container h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+
+  }
+  
+  /* Button Styles */
+  
+  .btn {
+    background-color: #3a6073;
+    color: #ffffff;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    background-position: center;
+  }
+  
+  .btn:hover {
+    background-color: #0055ff;
+  }
+  
+  .truth-btn {
+    background-color: #ff0000;
+  }
+  
+  .dare-btn {
+    background-color: #ff9900;
+  }
+  
+  .feedback-btn {
+    background: #ff0000;
+  }
+  /* Game Result Styles */
+  
+  .game-result {
+    margin-top: 2em;
+  }
+  
+  .game-result h3 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+.signup-container{
+        background-color: #000000;
+        padding: 1em;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        margin-top: 8%;
+ }
+ 
+  /* Footer Styles */
+  
+  footer {
+    background-color: #31343d;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+  }
+  
+  footer p {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+  }
+
+
+  nav {
+    background-color: #000000; 
+    color: #ffffff; 
+    padding: 1em; 
+    text-align: center; 
+    border-bottom: 2px solid #007bff; 
+    font-family: poppins;
+    font-weight: semibold;
+  }
+  
+  nav ul {
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: space-between; 
+  }
+  
+  nav ul li {
+    margin-right: 20px; 
+  }
+  
+  nav ul li a {
+    color: #fff; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    transition: background-color 0.01s ease-in-out; 
+  }
+  
+  nav ul li a:hover {
+    background-color: #ff0000; 
+  }
+  
+  nav ul li a.active {
+    background-color: #ff0000; 
+  }
+ h1 {
+    text-align: center;
+    color: #ff0000;
+    font-size: 500%;
+    padding: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+ }
+
+ h5 {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 0.01%;
+ }
+
+
+ h6 {
+  font-size: 20px;
+  font-family: poppins
+ }
+
+
+ button {
+  font-size: 12px;
+  color:#ffffff;
+  font-family: poppins;
+  font-weight: bold;
+ }
+
+ button a{
+  color: #ffffff;
+
+ }
+
+ h3 {
+  font-family: poppins;
+  font-weight: semibold;
+  color: #ff0000;
+  padding-top: 5%;
+ }
+
+ h6{
+  font-size: 20px;
+ }
